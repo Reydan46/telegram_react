@@ -1,0 +1,50 @@
+/*
+ *  Copyright (c) 2018-present, Evgeny Nadymov
+ *
+ * This source code is licensed under the GPL v.3.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+.poll {
+    min-width: 300px;
+    background: transparent;
+    user-select: none;
+}
+
+.poll-question {
+    display: flex;
+    flex-direction: column;
+}
+
+.poll-question-title {
+    font-weight: bold;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.poll-question-subtitle {
+    font-size: 14px;
+    line-height: normal;
+    color: var(--message-in-subtle-color);
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.poll-options {
+    padding: 9px 0 10px;
+}
+
+.poll-total-count {
+    font-size: 14px;
+    line-height: normal;
+    color: var(--message-in-subtle-color);
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
